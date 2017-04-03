@@ -1,0 +1,8 @@
+alias ll='ls -lG'
+alias oo='open .'
+
+alias mv='mv -v'
+alias rm='rm -i -v'
+alias cp='cp -v'
+
+alias grep='grep --color=auto'
