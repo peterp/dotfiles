@@ -19,6 +19,7 @@ brew install git-lfs
 # React Native
 brew install node
 brew install watchman
+npm install -g react-native-cli
 
 # Ruby, and Rails
 # ...
