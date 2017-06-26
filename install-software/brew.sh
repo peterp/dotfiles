@@ -22,7 +22,8 @@ brew install watchman
 npm install -g react-native-cli
 
 # Ruby, and Rails
-# ...
+brew install redis
+brew install postgresql
 
 brew cask install google-chrome
 brew cask install atom
@@ -33,5 +34,9 @@ brew cask install 1password
 brew cask install dropbox
 brew cask install flux
 brew cask install paw
+brew cask install sketch
+brew cask install slack
+brew cask install psequel
+brew cask install ngrok
 
 brew cleanup
