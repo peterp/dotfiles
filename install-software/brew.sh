@@ -1,4 +1,4 @@
-# If brew isn't already installed, do.
+# Brew
 if test ! $(which brew); then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
@@ -12,7 +12,6 @@ echo "/usr/local/bin/bash" >> /etc/shells
 chsh -s /usr/local/bin/bash
 
 brew install mas
-
 brew install git
 brew install git-lfs
 
@@ -21,22 +20,20 @@ brew install node
 brew install watchman
 npm install -g react-native-cli
 
-# Ruby, and Rails
+# Rails
 brew install redis
 brew install postgresql
 
-brew cask install google-chrome
-brew cask install atom
+brew cask install visual-studio-code
 brew cask install iterm2
-brew cask install whatsapp
+brew cask install google-chrome
+brew cask install firefox
 brew cask install spectacle
 brew cask install 1password
 brew cask install dropbox
-brew cask install flux
-brew cask install paw
 brew cask install sketch
 brew cask install slack
 brew cask install psequel
-brew cask install ngrok
+brew cask install spotify
 
 brew cleanup

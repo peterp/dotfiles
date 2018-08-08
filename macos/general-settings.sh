@@ -17,9 +17,6 @@ defaults write NSGlobalDomain AppleHighlightColor -string "0.6 0.6 0.6"
 # Dark interface
 defaults write NSGlobalDomain AppleInterfaceStyle Dark
 
-# Disable transparency
-defaults write com.apple.universalaccess reduceTransparency -bool true
-
 # Faster window resize animations
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 

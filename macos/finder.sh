@@ -1,5 +1,3 @@
-# Settings
-
 # `~` is default path
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
